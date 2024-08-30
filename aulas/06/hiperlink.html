@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHiperlinks</title>
+</head>
+     <body>
+         <h1>Aula de HTML hiperlinks</h1>
+        
+         <hr>
+        
+         <ul>
+            <li><a href="#secao1">Introdução</a></li>
+            <li><a href="#secao2">A tag "a"</a></li>
+            <li><a href="#secao3">A Sintaxe Básica da tag "a"</a></li>
+            <li><a href="#secao4">A Atributos Comuns da tag "a"</a></li>
+            <li><a href="#secao5">A Exemplo Navegável</a></li>
+            <li><a href="#secao6">A Navegação Dentro da Mesma página</a></li>
+        </ul>
+
+        <hr>
+        
+        <h2 id="secao1">Indrodução aos Hiperlinks em HTML</h2>
+
+         <p> 
+             Hiperlinks são um dos elementos fundamentais da web. 
+             permitindo a navegação entre página e recursos.Em HTML, 
+             os hiperlinks são criados usando tag "a"" 
+             também conhacida como "anchor" (âncora).
+             Essa tag pode vincular o usuário a outras página, arquivos,
+              ou até mesmo seções específicas dentro da mesma página.
+         </p>
+         <h2><a id="secao2">A tag "a":</a></h2>
+         
+         <p>
+            A tag "a" é usada para criar hiperlinks. Ela pode incluir várioas atributos, 
+            mas os mais comuns são <em>href</em> e <em>traget</em>.
+         </p>
+
+         <h3><a id="secao3">Sintaxe Básica da tag "a"</a></h3>
+         <a href="URL" > texto do link.</a>
+
+         <h3><a id="secao4">Atributos Comuns da tag "a"</a></h3>
+         <ul>
+            <li>href: Define o destino do link (URL)</li>
+            <li>traget: Especifíca onde abrir o link. valores comuns 
+                são _self (padão) e blank nova aba/janela.</li>
+                <li>title: adiciona um texto explicatico que aparece ao passar o mouse sobre o link.</li>
+            </ul>
+
+            <h3><a id="secao5"></a>Exemplo Navegável: </h3>
+
+            <a href="https://www.w3schools.com/html/"> site de referencia</a>
+            <br>
+            <a href="https://www.w3schools.com/html/" targt="blank"> site de referencia - Nova aba</a>"
+
+            <h2><a id="secao6">Navegação no mesmo Projeto</a></h2>
+
+            <p>
+                para criar links que naveguem para diferentes <b><i>sesões</i></b> da mesma página, 
+                usamos identificadores (<b>id</b>) e o atributo <em>href</em> com a.
+            </p>
+
+            <ul>
+                <li>Acesse <a href="../01/index.html">aqui</a> a aula 01.</li>
+                <li>Acesse <a href="../04/atividade.html">aqui</a> a atividade da aula 04. </li>
+                <li>acesse <a href="">aqui </a> parar baixar o arquivo.</a></li>
+            </ul>
+    </body>
+</html>
